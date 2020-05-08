@@ -9,7 +9,7 @@ name: Oleks Korshak
 description: Engineer from San Diego, Salt Lake City, and Redmond
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
-avatar: {{ site.baseurl }}/images/happyCherry.png
+avatar: https://i.imgur.com/ej8jWWS.png
 
 #
 # Flags below are optional
