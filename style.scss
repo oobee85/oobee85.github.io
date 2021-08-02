@@ -241,16 +241,20 @@ nav {
 // .main
 //
 
-.posts > .post {
-  padding-bottom: 2em;
-  border-bottom: 1px solid $lightGray;
+.posts .post {
+  border-style: solid;
+  border-width: 2px;
+  border-radius: .5rem;
+  margin: 1rem;
+  padding: 1.25rem;
+  -webkit-column-break-inside: avoid;
+  page-break-inside: avoid;
+  break-inside: avoid;
+  text-align: center;
 }
-
-.posts > .post:last-child {
-  padding-bottom: 1em;
-  border-bottom: none;
+.posts .post h1 {
+  margin: 0 0 0 0;
 }
-
 .post {
   blockquote {
     margin: 1.8em .8em;
