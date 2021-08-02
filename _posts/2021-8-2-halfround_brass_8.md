@@ -1,11 +1,8 @@
 ---
 layout: post
-title: copper ring
+title: Brass ring
 published: true
 ---
-![silver_onyx_necklace_6.58.jpg](/images/jewelry/necklace/silver_onyx_necklace_6.58.jpg)
+![halfround_brass_8.jpg](/images/jewelry/rings/halfround_brass_8.jpg)
 
-<img src="{{ site.baseurl }}/images/jewelry/rings/flat_copper_7.5.jpg" alt="Upgrade" style="width: 400px;"/>
 <!--more-->
-
-# Process
