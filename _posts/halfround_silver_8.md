@@ -1,8 +1,7 @@
 ---
 layout: post
 title: copper ring
+published: true
 ---
-<img src="{{ site.baseurl }}/images/jewelry/rings/flat_copper_7.5.jpg" alt="Upgrade" style="width: 400px;"/>
-<!--more-->
+![flat_copper_7.5.jpg](/images/jewelry/rings/flat_copper_7.5.jpg)
 
-# Process
