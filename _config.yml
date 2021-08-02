@@ -109,3 +109,8 @@ prose:
           element: "text"
           label: "Title"
           value: ""
+    
+      - name: "published"
+        field:
+          element: "text"
+          value: "true"
