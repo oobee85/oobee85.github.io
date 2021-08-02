@@ -2,6 +2,10 @@
 layout: blog
 published: false
 ---
+---
+layout: post
+published: true
+---
 
 ![square_silver_topaz_8.5.jpg](/images/jewelry/rings/square_silver_topaz_8.5.jpg)
 <!--more-->
