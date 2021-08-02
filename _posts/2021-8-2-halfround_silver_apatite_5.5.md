@@ -1,8 +1,10 @@
 ---
 layout: post
-title: copper ring
+title: silver apatite ring
+published: true
 ---
-<img src="{{ site.baseurl }}/images/jewelry/rings/flat_copper_7.5.jpg" alt="Upgrade" style="width: 400px;"/>
+![halfround_silver_apatite_5.5.jpg](/images/jewelry/rings/halfround_silver_apatite_5.5.jpg)
 <!--more-->
 
+![halfround_silver_apatite_6.5-2.jpg](/images/jewelry/rings/halfround_silver_apatite_6.5-2.jpg)
 # Process
