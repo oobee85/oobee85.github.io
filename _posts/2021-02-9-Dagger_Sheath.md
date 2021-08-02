@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Sheath WIP
+published: false
 ---
 <img src="{{ site.baseurl }}/images/crafts/dagger/6stitch_done.jpg" alt="Upgrade" style="width: 400px;"/>
 <!--more-->
