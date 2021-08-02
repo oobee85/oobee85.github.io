@@ -1,8 +1,4 @@
 ---
-layout: blog
-published: true
----
----
 layout: post
 published: true
 ---
