@@ -1,10 +1,9 @@
 ---
 layout: post
 title: silver ring with opal
+published: true
 ---
-<img src="{{ site.baseurl }}/images/jewelry/rings/flat_silver_opal_8.jpg" alt="Upgrade" style="width: 400px;"/>
+![flat_silver_opal_8.jpg]({{site.baseurl}}/images/jewelry/rings/flat_silver_opal_8.jpg)
 <!--more-->
 
-# Process
-
-<img src="{{ site.baseurl }}/images/crafts/dagger/flat_silver_opal_8.jpg" alt="Upgrade" style="width: 400px;"/>
+![flat_silver_opal_8-2.jpg]({{site.baseurl}}/images/jewelry/rings/flat_silver_opal_8-2.jpg)
