@@ -1,6 +1,6 @@
 ---
 layout: post
-title: copper ring
+title: Silver ring
 published: true
 ---
-![flat_copper_7.5.jpg](/images/jewelry/rings/flat_copper_7.5.jpg)
+![halfround_silver_8.jpg](/images/jewelry/rings/halfround_silver_8.jpg)
