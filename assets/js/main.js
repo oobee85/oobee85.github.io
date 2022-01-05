@@ -1,7 +1,5 @@
 
 function selectCategory(category) {
-    console.log("asdf");
-    console.log(category);
     select(category);
 }
 
@@ -10,9 +8,15 @@ function selectCategory(category) {
 let selected;
 function select(category) {
 
-    // Highlight the button in the nav bar
-//   document.getElementById(id).className = "category selected";
-//   selected = id;
+  // unhighlight highlighted buttons
+  let allbuttons = document.getElementsByClassName("selected");
+  allbuttons.array.forEach(element => {
+    element.className = "category";
+  });
+
+  // Highlight the button in the nav bar
+  document.getElementById(id).className = "category selected";
+  selected = id;
 
   //Show and hide the projects deppending on if they contain the category or not
   let allposts = document.getElementsByClassName("post");
