@@ -1,7 +1,8 @@
 ---
 layout: post
-title: silver ring with opal
+title: Silver Ring Opal 0.86ct
 published: true
+category: rings
 ---
 ![flat_silver_opal_8.jpg]({{site.baseurl}}/images/jewelry/rings/flat_silver_opal_8.jpg)
 <!--more-->
