@@ -16,11 +16,10 @@ function select(category) {
 
   //Show and hide the projects deppending on if they contain the category or not
   let allposts = document.getElementsByClassName("post");
-  let categoryposts = document.getElementsByClassName(category);
 
   for (let i = 0; i < allposts.length; i++) {
     let post = allposts[i];
-    if (post.classList.contains(category)) {
+    if (post.classList.contains(category) || category == "all") {
         post.style.display = "";
     }
     else {
