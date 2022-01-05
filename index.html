@@ -2,6 +2,11 @@
 layout: default
 ---
 
+<div class="categoryContainer">
+  <div class="pave" onclick="selectCategory('pave')">pave</div>
+  <div class="rings" onclick="selectCategory('rings')">rings</div>
+</div>
+
 <div class="posts">
   {% for post in site.posts %}
     <a href="{{ site.baseurl }}{{ post.url }}">
