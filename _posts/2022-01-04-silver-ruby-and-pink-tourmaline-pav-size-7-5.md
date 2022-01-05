@@ -2,7 +2,7 @@
 layout: post
 published: true
 title: Silver Ruby and Pink Tourmaline Pavé Size 7.5
-category: pave
+category: pave rings
 ---
 ![pave_silver_ruby_tourmaline_7.5-0.jpg](/images/jewelry/rings/pave_silver_ruby_tourmaline_7.5-0.jpg)
 <!--more-->
