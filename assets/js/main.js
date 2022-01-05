@@ -10,9 +10,13 @@ function select(category) {
 
   // unhighlight highlighted buttons
   let allbuttons = document.getElementsByClassName("selected");
-  allbuttons.array.forEach(element => {
-    element.className = "category";
-  });
+  for (let i = 0; i < allbuttons.length; i++){
+    let button = allbuttons[i];
+    button.className = "category";
+  }
+  //allbuttons.array.forEach(element => {
+  //  element.className = "category";
+  //});
 
   // Highlight the button in the nav bar
   document.getElementById(category).className = "category selected";
