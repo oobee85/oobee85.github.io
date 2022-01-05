@@ -15,7 +15,7 @@ function select(category) {
   });
 
   // Highlight the button in the nav bar
-  document.getElementById().className = "category selected";
+  document.getElementById(category).className = "category selected";
 
   //Show and hide the projects deppending on if they contain the category or not
   let allposts = document.getElementsByClassName("post");
