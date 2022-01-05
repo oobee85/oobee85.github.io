@@ -13,7 +13,7 @@
 /* BASE RULES */
 /**************/
 
-#categorySelector {
+#categoryContainer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -27,7 +27,7 @@
   width: 100%;
 }
 
-#categorySelector .category {
+#categoryContainer .category {
   background-color: #222222;
   color: white;
   width: -webkit-fit-content;
@@ -39,7 +39,7 @@
   cursor: pointer;
 }
 
-#categorySelector .selected {
+#categoryContainer .selected {
   background-color: #b30000;
 }
 
