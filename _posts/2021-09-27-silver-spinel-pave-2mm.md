@@ -1,7 +1,8 @@
 ---
 layout: post
 published: true
-title: Silver Spinel Pave 2mm
+title: Silver Spinel Pavé
+category: pave rings
 ---
 ![pave_silver_spinel_8-0.jpg](/images/jewelry/rings/pave_silver_spinel_8-0.jpg)
 <!--more-->
