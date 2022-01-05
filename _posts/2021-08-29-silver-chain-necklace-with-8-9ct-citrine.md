@@ -1,7 +1,7 @@
 ---
 layout: post
 published: true
-title: Silver chain necklace with 8.9ct citrine
+title: Silver chain necklace 8.9ct citrine
 ---
 ![silver_citrine_8.9ct_32g.jpg](/images/jewelry/necklace/silver_citrine_8.9ct_32g.jpg)
 <!--more-->

@@ -1,6 +1,7 @@
 ---
 layout: post
 published: true
-title: Silver twist size 7.5
+title: Silver Twist
+category: rings
 ---
 ![twist_silver_7.5.jpg](/images/jewelry/rings/twist_silver_7.5.jpg)

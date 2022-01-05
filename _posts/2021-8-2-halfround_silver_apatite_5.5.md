@@ -1,6 +1,6 @@
 ---
 layout: post
-title: silver apatite ring
+title: Silver Apatite Ring
 published: true
 category: rings
 ---

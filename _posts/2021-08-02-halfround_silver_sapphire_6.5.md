@@ -1,7 +1,8 @@
 ---
 layout: post
 published: true
-title: Silver sapphire ring
+title: Silver Sapphire Ring
+category: rings
 ---
 
 ![halfround_silver_sapphire_6.5.jpg](/images/jewelry/rings/halfround_silver_sapphire_6.5.jpg)

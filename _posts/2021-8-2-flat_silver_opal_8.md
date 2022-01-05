@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Silver Ring Opal 0.86ct
+title: Silver Opal 0.86ct Ring
 published: true
 category: rings
 ---

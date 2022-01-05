@@ -1,7 +1,7 @@
 ---
 layout: post
 published: true
-title: Silver onyx necklace 8.84 carat
+title: Silver Onyx Necklace 8.84ct
 ---
 ![silver_onyx_necklace_8.84.jpg](/images/jewelry/necklace/silver_onyx_necklace_8.84.jpg)
 <!--more-->

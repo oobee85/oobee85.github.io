@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Brass ring
+title: Brass Ring
 published: true
 category: rings
 ---
