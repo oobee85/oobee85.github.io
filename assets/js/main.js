@@ -1,4 +1,4 @@
 
-function selectCategory(category) {
+function selectCategory() {
     console.log("asdf");
 }
