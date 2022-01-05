@@ -21,10 +21,10 @@ function select(category) {
   for (let i = 0; i < allposts.length; i++) {
     let post = allposts[i];
     if (post.classList.contains(category)) {
-        project.style.display = "";
+        post.style.display = "";
     }
     else {
-        project.style.display = "none";
+        post.style.display = "none";
     }
   }
 }
