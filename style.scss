@@ -13,6 +13,37 @@
 /* BASE RULES */
 /**************/
 
+#categorySelector {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  list-style: none;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  width: 100%;
+}
+
+#categorySelector .category {
+  background-color: #222222;
+  color: white;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 5px;
+  margin: 5px;
+  border-radius: 1em;
+  cursor: pointer;
+}
+
+#categorySelector .selected {
+  background-color: #b30000;
+}
+
+
 html {
   font-size: 100%;
 }
