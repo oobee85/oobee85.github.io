@@ -10,7 +10,7 @@ layout: default
 <div class="posts">
   {% for post in site.posts %}
     <a href="{{ site.baseurl }}{{ post.url }}">
-    <article class="post">
+    <article class="post {{ post.category }}">
 
       <h1>{{ post.title }}</h1>
       <div class="entry">
