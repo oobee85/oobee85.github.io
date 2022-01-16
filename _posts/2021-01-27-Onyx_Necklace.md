@@ -1,7 +1,10 @@
 ---
 layout: post
+published: false
 title: Necklace
 category: necklaces
+
+
 ---
 <img src="{{ site.baseurl }}/images/crafts/fury/finished1.jpg" alt="Upgrade" style="width: 400px;"/>
 <!--more-->
