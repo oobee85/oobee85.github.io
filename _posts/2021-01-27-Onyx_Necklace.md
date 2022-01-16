@@ -2,6 +2,7 @@
 layout: post
 title: Necklace
 category: necklaces singlestone
+published: false
 ---
 <img src="{{ site.baseurl }}/images/crafts/fury/finished1.jpg" alt="Upgrade" style="width: 400px;"/>
 <!--more-->
