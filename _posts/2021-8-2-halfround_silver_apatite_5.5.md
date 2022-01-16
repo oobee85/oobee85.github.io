@@ -2,7 +2,7 @@
 layout: post
 title: Silver Apatite Ring
 published: true
-category: rings
+category: rings singlestone
 ---
 ![halfround_silver_apatite_5.5.jpg](/images/jewelry/rings/halfround_silver_apatite_5.5.jpg)
 <!--more-->

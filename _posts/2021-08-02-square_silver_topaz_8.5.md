@@ -2,7 +2,7 @@
 layout: post
 published: true
 title: Silver Topaz Ring
-category: rings
+category: rings singlestone
 ---
 
 ![square_silver_topaz_8.5.jpg](/images/jewelry/rings/square_silver_topaz_8.5.jpg)
