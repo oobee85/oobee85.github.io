@@ -2,6 +2,7 @@
 layout: post
 published: true
 title: Silver round wire twist
+category: rings
 ---
 ![twistround_silver_8-0.jpg](/images/jewelry/rings/twistround_silver_8-0.jpg)
 <!--more-->
