@@ -1,7 +1,7 @@
 ---
 layout: post
 published: true
-title: Silver CZ Pavé
+title: Silver CZ Pavé 2mm
 category: rings pave
 
 ---
