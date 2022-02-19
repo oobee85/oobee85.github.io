@@ -1,9 +1,9 @@
 # Local editing on windows: 
 https://jekyllrb.com/docs/installation/windows/
 - download and run ruby installer
-- gem install jekyll bundler webrick
-- gem install github-pages
-- jekyll serve
+- `gem install jekyll bundler webrick`
+- `gem install github-pages`
+- `jekyll serve`
 
 
 
