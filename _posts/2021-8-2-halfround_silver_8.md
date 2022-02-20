@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Silver ring
+title: Silver Ring
 published: true
 category: rings
 ---

@@ -4,7 +4,6 @@
 //
 // IMPORTS
 //
-
 @import "reset";
 @import "variables";
 // Syntax highlighting @import is at the bottom of this file
@@ -43,22 +42,21 @@
   background-color: #b30000;
 }
 
-
 html {
   font-size: 100%;
 }
 
 body {
-	background: $white;
+	background: $lightGray;
   font: 18px/1.4 $helvetica;
   color: $darkGray;
 }
 
 .container {
   margin: 0 auto;
-  max-width: 1100px;
   padding: 0 10px;
   width: 100%;
+  max-width: 1620px;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -271,27 +269,53 @@ nav {
 //
 // .main
 //
-.posts {
-  column-width: 500px;	
-}
+
 .posts .post {
   border-style: solid;
+  border-color: black;
   border-width: 2px;
   border-radius: .5rem;
   margin: 1rem;
-  padding: 1.25rem;
+  padding: 1rem;
   -webkit-column-break-inside: avoid;
   page-break-inside: avoid;
   break-inside: avoid;
+  
+  float: left; 
+  width: 500px; 
+  height: 500px;
+  position: relative;  
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: black;
+}
+
+.posts .post .posttitle {
+  background: black;
+  position:absolute;
+  top: 0px;
+  width:100%;
   text-align: center;
-  max-width: 500px;
+  margin: 0;
+  color:white;
+  padding: 1rem 0 0 0;
+  font-size: 1.4rem;
+  opacity: 0;
+  transition: opacity ease-out 200ms;
 }
-.posts .post h1 {
-  margin: 0 0 0 0;
+
+.posts .post:hover .posttitle{
+  opacity: 1;
 }
-.posts .post:hover {
-  background-color: #cfcfcf
+
+// {{ post.excerpt }} comes with a p
+.posts .post p {
+  margin: 0;
 }
+
+
 .post {
   blockquote {
     margin: 1.8em .8em;

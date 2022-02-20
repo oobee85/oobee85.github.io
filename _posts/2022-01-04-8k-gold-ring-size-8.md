@@ -1,7 +1,7 @@
 ---
 layout: post
 published: true
-title: 8K Gold ring Size 8
+title: 8K Gold Ring
 category: rings
 ---
 ![round_gold_8-0.jpg](/images/jewelry/rings/round_gold_8-0.jpg)

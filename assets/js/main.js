@@ -10,13 +10,16 @@ function select(category) {
 
   // unhighlight highlighted buttons
   let allbuttons = document.getElementsByClassName("selected");
-  allbuttons.array.forEach(element => {
-    element.className = "category";
-  });
+  for (let i = 0; i < allbuttons.length; i++){
+    let button = allbuttons[i];
+    button.className = "category";
+  }
+  //allbuttons.array.forEach(element => {
+  //  element.className = "category";
+  //});
 
   // Highlight the button in the nav bar
-  document.getElementById(id).className = "category selected";
-  selected = id;
+  document.getElementById(category).className = "category selected";
 
   //Show and hide the projects deppending on if they contain the category or not
   let allposts = document.getElementsByClassName("post");

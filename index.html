@@ -3,22 +3,24 @@ layout: default
 ---
 
 <div id="categoryContainer">
-  <div id="all" class="category" onclick="selectCategory('all')">Select All</div>
-  <div id="pave" class="category" onclick="selectCategory('pave')">pave</div>
-  <div id="rings" class="category" onclick="selectCategory('rings')">rings</div>
+  <div id="all" class="category selected" onclick="selectCategory('all')">Select All</div>
+  <div id="pave" class="category" onclick="selectCategory('pave')">Pavé</div>
+  <div id="rings" class="category" onclick="selectCategory('rings')">Rings</div>
+  <div id="earrings" class="category" onclick="selectCategory('earrings')">Earrings</div>
+  <div id="necklaces" class="category" onclick="selectCategory('necklaces')">Necklaces</div>
+  <div id="engraved" class="category" onclick="selectCategory('engraved')">Engraved</div>
+  <div id="singlestone" class="category" onclick="selectCategory('singlestone')">Single Stone</div>
 </div>
 
 <div class="posts">
   {% for post in site.posts %}
-    <a href="{{ site.baseurl }}{{ post.url }}">
-    <article class="post {{ post.category }}">
-
-      <h1>{{ post.title }}</h1>
-      <div class="entry">
-        {{ post.excerpt }}
+  <a href="{{ site.baseurl }}{{ post.url }}">
+    <div class="post {{ post.category }}">
+      <div class="posttitle">
+        {{ post.title }}
       </div>
-        
-    </article>
-    </a>
+      {{ post.excerpt }}
+    </div>
+  </a>
   {% endfor %}
 </div>

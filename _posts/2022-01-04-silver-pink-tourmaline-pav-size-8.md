@@ -1,7 +1,7 @@
 ---
 layout: post
 published: true
-title: Silver Pink Tourmaline Pavé Size 8
+title: Silver Pink Tourmaline Pavé 2mm
 category: pave rings
 ---
 ![pave_silver_tourmaline_8-0.jpg](/images/jewelry/rings/pave_silver_tourmaline_8-0.jpg)
