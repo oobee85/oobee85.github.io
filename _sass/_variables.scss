@@ -3,8 +3,11 @@
 // VARIABLES
 //
 
+$MAXWIDTH: 1568px;
+
 // Colors
-$blue: #4183C4;
+$blue: #004080;
+$purple: rgb(177, 144, 213);
 
 // Grays
 $black: #000;
@@ -17,6 +20,7 @@ $white: #fff;
 // Font stacks
 $helvetica: Helvetica, Arial, sans-serif;
 $helveticaNeue: "Helvetica Neue", Helvetica, Arial, sans-serif;
+$segoi: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 $georgia: Georgia, serif;
 
 // Mobile breakpoints
