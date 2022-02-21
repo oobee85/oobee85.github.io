@@ -3,13 +3,19 @@ layout: default
 ---
 
 <div id="categoryContainer">
-  <div id="all" class="category selected" onclick="selectCategory('all')">Select All</div>
-  <div id="pave" class="category" onclick="selectCategory('pave')">Pavé</div>
-  <div id="rings" class="category" onclick="selectCategory('rings')">Rings</div>
-  <div id="earrings" class="category" onclick="selectCategory('earrings')">Earrings</div>
-  <div id="necklaces" class="category" onclick="selectCategory('necklaces')">Necklaces</div>
-  <div id="engraved" class="category" onclick="selectCategory('engraved')">Engraved</div>
-  <div id="singlestone" class="category" onclick="selectCategory('singlestone')">Single Stone</div>
+  <!-- <div id="all" class="category selected" onclick="selectCategory('all')">Select All</div> -->
+
+  <div class="categoryGroup">
+    <div id="pave" class="category" onclick="selectCategory('pave')">Pavé</div>
+    <div id="engraved" class="category" onclick="selectCategory('engraved')">Engraved</div>
+    <div id="singlestone" class="category" onclick="selectCategory('singlestone')">Single Stone</div>
+  </div>
+
+  <div class="categoryGroup">
+    <div id="rings" class="category" onclick="selectCategory('rings')">Rings</div>
+    <div id="earrings" class="category" onclick="selectCategory('earrings')">Earrings</div>
+    <div id="necklaces" class="category" onclick="selectCategory('necklaces')">Necklaces</div>
+  </div>
 </div>
 
 <div class="posts">

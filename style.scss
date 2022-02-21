@@ -27,11 +27,43 @@
   margin-top: 30px;
   margin-bottom: 30px;
   font-size: 1.6rem;
+  // display: table;
+  // table-layout: fixed;
+  position: relative;
+  // border-bottom: 1px solid black;
+  text-align: center;
+  
+  @include mobile {
+    display: block;
+    border-bottom: none;
+  }
+}
+
+#categoryContainer .categoryGroup {
   display: table;
   table-layout: fixed;
-  position: relative;
   border-bottom: 1px solid black;
+  position: relative;
+  text-align: center;
+
+  margin: 0 1rem 0 0;
+  
+  @include mobile {
+    display: block;
+    border-bottom: none;
+  }
 }
+// #categoryContainer .categoryGroup::before {
+//   position: absolute;
+//   // display: block;
+//   top: 0;
+//   width: 100%;
+//   height: 10px;
+//   color: red;
+//   background-color: purple;
+//   content: '';
+//   z-index: 10;
+// }
 
 #categoryContainer .category {
   color: black;
@@ -39,13 +71,21 @@
   width: -moz-fit-content;
   width: fit-content;
   padding: 15px 20px;
-  margin: 0 15px 0 0;
+  margin: 0 1rem 0 0;
   cursor: pointer;
   position:relative;
   border-radius: 1rem;
   display: table-cell;
   text-align: center;
 
+  
+  transition: font-size ease-out 100ms;
+
+  @include mobile {
+    display: inline-block;
+    font-size: 1.2rem;
+  }
+  
 }
 
 #categoryContainer .category::after {
@@ -59,6 +99,10 @@
   height: 0;
   z-index: 10;
   transition: height ease-out 200ms;
+
+  @include mobile {
+    height: 2px;
+  }
 }
 
 #categoryContainer .category:hover::after {
@@ -254,12 +298,6 @@ img {
   height: 100%;
   align-items: center;
   display: flex;
-
-  @include mobile {
-    float: none;
-    display: block;
-    margin: 0 auto;
-  }
 }
 
 .site-name {
@@ -269,10 +307,13 @@ img {
   font-family: $segoi;
   font-weight: 500;
   font-size: 50px;
-  // font-family:'Segoe UI';
-  // letter-spacing: 1px;
-
   float: left;
+  
+  transition: font-size ease-out 100ms;
+  
+  @include mobile {
+    font-size: 35px;
+  }
 }
 
 .site-description {
@@ -290,18 +331,20 @@ img {
 nav {
   float: right;
   font-family: $segoi;
-  font-size: 40px;
+  font-size: 35px;
   font-weight: 400;
   
   height: 100%;
   align-items: center;
   display: flex;
+  
+  transition: font-size ease-out 100ms;
 
   @include mobile {
-    float: none;
-    margin-top: 9px;
-    display: block;
-    font-size: 16px;
+    float: right;
+    // margin-top: 9px;
+    // display: block;
+    font-size: 24px;
   }
 
   a {
@@ -353,6 +396,9 @@ nav {
   opacity: 0;
   border-radius: 1rem 1rem 0 0;
   transition: opacity ease-out 200ms;
+  @include mobile {
+    opacity: 1;
+  }
 }
 
 .posts .post:hover .posttitle{
