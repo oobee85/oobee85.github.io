@@ -1,36 +1,40 @@
 
-function selectCategory(category) {
-    select(category);
+let currentCategory = 'all';
+
+function pressed(button) {
+  let category = button.id;
+  if (button.classList.contains("selected")) {
+    deselectCategory(button);
+  }
+  else {
+    selectCategory(button, category);
+  }
 }
 
+function deselectCategory(button) {
+  button.classList.remove("selected");
+  currentCategory = 'all';
+  showAllPosts();
+}
 
-
-let selected;
-function select(category) {
-
-  // unhighlight highlighted buttons
-  let allbuttons = document.getElementsByClassName("selected");
-  for (let i = 0; i < allbuttons.length; i++){
-    let button = allbuttons[i];
-    button.className = "category";
+function selectCategory(button, category) {
+  if (currentCategory != 'all') {
+    document.getElementById(currentCategory).classList.remove("selected");
   }
-  //allbuttons.array.forEach(element => {
-  //  element.className = "category";
-  //});
+  hideAllPosts();
+  button.classList.add("selected");
+  currentCategory = category;
+  showAllPostsOfCategory(currentCategory);
+}
 
-  // Highlight the button in the nav bar
-  document.getElementById(category).className = "category selected";
+function hideAllPosts() {
+  Array.prototype.forEach.call(document.getElementsByClassName("post"), item => item.classList.add("hiddenpost"));
+}
 
-  //Show and hide the projects deppending on if they contain the category or not
-  let allposts = document.getElementsByClassName("post");
+function showAllPosts() {
+  Array.prototype.forEach.call(document.getElementsByClassName("post"), item => item.classList.remove("hiddenpost"));
+}
 
-  for (let i = 0; i < allposts.length; i++) {
-    let post = allposts[i];
-    if (post.classList.contains(category) || category == "all") {
-        post.style.display = "";
-    }
-    else {
-        post.style.display = "none";
-    }
-  }
+function showAllPostsOfCategory(category) {
+  Array.prototype.forEach.call(document.getElementsByClassName(category), item => item.classList.remove("hiddenpost"));
 }
