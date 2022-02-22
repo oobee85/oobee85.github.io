@@ -46,7 +46,7 @@
   position: relative;
   text-align: center;
 
-  margin: 0 1rem 0 0;
+  margin: 0 2rem 0 0;
   
   @include mobile {
     display: block;
@@ -372,10 +372,10 @@ nav {
   page-break-inside: avoid;
   break-inside: avoid;
   
-  float: left; 
-  width: 500px; 
-  height: 500px;
-  position: relative;  
+  float: left;
+  width: 350px;
+  height: 400px;
+  position: relative;
   background: #fff;
   display: flex;
   align-items: center;
@@ -392,7 +392,7 @@ nav {
   background: black;
   position:absolute;
   top: 0px;
-  width:100%;
+  width: 100%;
   text-align: center;
   margin: 0;
   color:white;
@@ -415,14 +415,13 @@ nav {
   margin: 0;
 }
 
-
 .post {
   blockquote {
     margin: 1.8em .8em;
     border-left: 2px solid $gray;
     padding: 0.1em 1em;
     color: $gray;
-    font-size: 22px;
+    font-size: 20px;
     font-style: italic;
   }
 
