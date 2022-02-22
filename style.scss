@@ -24,6 +24,7 @@
   -webkit-box-pack: start;
   -ms-flex-pack: start;
   justify-content: center;
+  // justify-content: space-around;
   flex-wrap: wrap;
   gap: 1rem;
 
@@ -374,17 +375,16 @@ nav {
 .posts {
   display: flex;
   justify-content: center;
-
   flex-wrap: wrap;
+  gap: 1rem;
+
+  margin-bottom: 2rem;
 }
 
 .posts .post {
   border-radius: 1rem;
-  margin: 0 1rem 1rem 0;
   padding: 1rem;
-  -webkit-column-break-inside: avoid;
-  page-break-inside: avoid;
-  break-inside: avoid;
+  margin: 0;
   
   float: left;
   width: 24rem;
