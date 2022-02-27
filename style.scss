@@ -68,10 +68,10 @@
 }
 
 #categoryContainer .category:hover::after {
-  height: 1rem;
+  height: 0.8rem;
 }
 
-#categoryContainer .selected::after {
+#categoryContainer .category.selected::after {
   height: 1rem;
 }
 
@@ -85,11 +85,13 @@ body {
   color: $darkGray;
 
   background-color: rgb(163, 255, 255);
-  background-image: url("https://images.unsplash.com/photo-1628882836842-d5ffd7c7278e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2604&q=80");
-  min-height: 100%;
+  background-image: url(https://images.unsplash.com/photo-1628882836842-d5ffd7c7278e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2604&q=80); 
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-position: center;
+  background-position: top left;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
 }
 
