@@ -28,13 +28,13 @@ function selectCategory(button, category) {
 }
 
 function hideAllPosts() {
-  Array.prototype.forEach.call(document.getElementsByClassName("post"), item => item.classList.add("hiddenpost"));
+  Array.prototype.forEach.call(document.getElementsByClassName("post"), item => item.parentNode.classList.add("hiddenpost"));
 }
 
 function showAllPosts() {
-  Array.prototype.forEach.call(document.getElementsByClassName("post"), item => item.classList.remove("hiddenpost"));
+  Array.prototype.forEach.call(document.getElementsByClassName("post"), item => item.parentNode.classList.remove("hiddenpost"));
 }
 
 function showAllPostsOfCategory(category) {
-  Array.prototype.forEach.call(document.getElementsByClassName(category), item => item.classList.remove("hiddenpost"));
+  Array.prototype.forEach.call(document.getElementsByClassName(category), item => item.parentNode.classList.remove("hiddenpost"));
 }

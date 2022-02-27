@@ -31,7 +31,6 @@
   margin-top: 30px;
   margin-bottom: 30px;
   font-size: 1.6rem;
-  position: relative;
   text-align: center;
 }
 
@@ -53,7 +52,6 @@
   @include mobile {
     font-size: 1.2rem;
   }
-  
 }
 
 #categoryContainer .category::after {
@@ -86,6 +84,7 @@ body {
   font: 18px/1.4 $segoi;
   color: $darkGray;
 
+  background-color: rgb(163, 255, 255);
   background-image: url("https://images.unsplash.com/photo-1628882836842-d5ffd7c7278e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2604&q=80");
   min-height: 100%;
   background-repeat: no-repeat;
@@ -283,6 +282,9 @@ img {
   float: center;
   
   transition: font-size ease-out 100ms;
+
+  position: sticky;
+  top: 0;
   
   @include mobile {
     font-size: 35px;
@@ -358,6 +360,10 @@ nav {
   align-items: center;
   justify-content: center;
   background: black;
+}
+
+.posts .post:hover {
+  box-shadow: 0 0 0.4rem rgba(0, 0, 0, 0.7);
 }
 
 .posts .hiddenpost {
