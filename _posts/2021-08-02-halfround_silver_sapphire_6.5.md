@@ -2,7 +2,7 @@
 layout: post
 published: true
 title: Silver Sapphire Ring
-category: rings singlestone
+category: rings centerstone
 ---
 
 ![halfround_silver_sapphire_6.5.jpg](/images/jewelry/rings/halfround_silver_sapphire_6.5.jpg)
