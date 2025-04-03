@@ -1,6 +1,6 @@
 ---
 layout: post
-published: true
+published: 'true'
 title: Black Tourmaline 18k gold ring
 category: rings centerstone
 ---
