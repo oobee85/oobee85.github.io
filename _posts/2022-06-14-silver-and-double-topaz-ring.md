@@ -1,6 +1,6 @@
 ---
 layout: post
-published: true
+published: 'true'
 title: Silver and Double Topaz Ring
 category: rings centerstone
 ---
