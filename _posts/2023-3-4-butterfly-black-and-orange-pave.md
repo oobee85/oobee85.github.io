@@ -1,6 +1,5 @@
 ---
 layout: post
-published: true
 title: Butterfly Black Tourmaline and Pyrope Garnet Pave
 category: necklaces pave
 ---
