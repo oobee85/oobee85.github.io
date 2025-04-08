@@ -1,7 +1,7 @@
 ---
 layout: post
 published: true
-title: Silver Apatite and Zircon Ring
+title: Silver Apatite and Zircon Ring Size 5.5
 category: rings centerstone
 ---
 ![halfround_silver_apatite_zircon_5.5-0.jpg](/images/jewelry/rings/halfround_silver_apatite_zircon_5.5-0.jpg)

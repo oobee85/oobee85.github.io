@@ -1,7 +1,7 @@
 ---
 layout: post
 published: true
-title: Silver Sapphire Ring
+title: Silver Sapphire Ring Size 6.5
 category: rings centerstone
 ---
 

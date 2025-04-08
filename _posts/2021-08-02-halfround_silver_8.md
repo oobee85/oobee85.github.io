@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Silver Ring
+title: Silver Ring Size 8
 published: true
 category: rings
 ---

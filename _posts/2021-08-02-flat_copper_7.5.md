@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Copper Ring
+title: Copper Ring Size 7.5
 published: true
 category: rings
 ---

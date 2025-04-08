@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Brass Ring
+title: Brass Ring Size 8
 published: true
 category: rings
 ---

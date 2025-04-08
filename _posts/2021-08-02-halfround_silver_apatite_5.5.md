@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Silver Apatite Ring
+title: Silver Apatite Ring Size 5.5
 published: true
 category: rings centerstone
 ---

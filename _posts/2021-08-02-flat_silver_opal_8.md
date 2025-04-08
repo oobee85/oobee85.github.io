@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Silver Opal 0.86ct Ring
+title: Silver Opal 0.86ct Ring Size 8
 published: true
 category: rings centerstone
 ---

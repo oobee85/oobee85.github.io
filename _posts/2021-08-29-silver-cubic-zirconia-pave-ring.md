@@ -1,7 +1,7 @@
 ---
 layout: post
 published: true
-title: Silver Cubic Zirconia Pavé Ring 2mm
+title: Silver Cubic Zirconia Pavé Ring 2mm Size 8
 category: pave rings
 ---
 ![pave_silver_CZ_8.jpg](/images/jewelry/rings/pave_silver_CZ_8.jpg)

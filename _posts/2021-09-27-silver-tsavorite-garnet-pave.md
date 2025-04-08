@@ -1,7 +1,7 @@
 ---
 layout: post
 published: true
-title: Silver Tsavorite Garnet Pavé 2mm
+title: Silver Tsavorite Garnet Pavé 2mm Size 8
 category: pave rings
 ---
 ![pave_silver_tsavoritegarnet_8-0.jpg](/images/jewelry/rings/pave_silver_tsavoritegarnet_8-0.jpg)
